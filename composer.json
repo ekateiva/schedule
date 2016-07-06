@@ -1,0 +1,18 @@
+{
+    "name": "spoleague/schedule",
+    "authors": [
+        {
+            "name": "Eimantas Kateiva",
+            "email": "eimantas@kateiva.lt"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Spoleague\\Schedule\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    }
+}
