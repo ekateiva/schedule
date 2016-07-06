@@ -51,7 +51,7 @@ class ScheduleTest extends PHPUnit_Framework_TestCase
      */
     public function it_shuffles_the_teams()
     {
-        $teams = [1,2,3,4];
+        $teams = [1, 2, 3, 4];
         $this->schedule->setTeams($teams);
         $result = $this->schedule->shuffleTeams()->getTeams();
 
@@ -63,7 +63,7 @@ class ScheduleTest extends PHPUnit_Framework_TestCase
      */
     public function the_teams_should_play_twice_each_other_at_home_and_away()
     {
-        $teams = [1,2,3,4];
+        $teams = [1, 2, 3, 4];
         $this->schedule->setTeams($teams);
         $result = $this->schedule->setDoubleRound()->generate();
 

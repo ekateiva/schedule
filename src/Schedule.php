@@ -7,7 +7,7 @@ class Schedule implements ScheduleInterface
     /** @var array an array of teams */
     protected $teams;
 
-    /** @var bool  */
+    /** @var bool */
     protected static $doubleRoundRobin = false;
 
     /**
